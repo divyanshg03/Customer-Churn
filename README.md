@@ -63,6 +63,13 @@ All data preprocessing steps (scaling and encoding) are applied before modeling 
 
 git clone https://github.com/yourusername/customer-churn-prediction.git
 cd customer-churn-prediction
+### 2. Set up the environment
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+### 3. Launch the app
+streamlit run app.py
+
 ## 🧮 Logistic Regression Model
 
     Simple yet effective baseline model
