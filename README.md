@@ -34,7 +34,7 @@ All data preprocessing steps (scaling and encoding) are applied before modeling 
 
 ## 📁 Project Structure
 
-```plaintext
+
 📦 customer-churn-prediction
 ├── app.py              # Streamlit app for real-time prediction
 ├── churn.ipynb         # EDA and model development notebook
@@ -44,7 +44,6 @@ All data preprocessing steps (scaling and encoding) are applied before modeling 
 └── README.md           # You’re reading it!
 
 ---
-
 ## 🛠 Tech Stack
 
 | Area               | Tools Used                     |
@@ -61,7 +60,7 @@ All data preprocessing steps (scaling and encoding) are applied before modeling 
 ## 🧪 How It Works
 
 ### 1. Clone the Repository
-```bash
+
 git clone https://github.com/yourusername/customer-churn-prediction.git
 cd customer-churn-prediction
 ## 🧮 Logistic Regression Model
