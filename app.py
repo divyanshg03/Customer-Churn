@@ -10,7 +10,7 @@ st.title("Churn Prediction App")
 
 st.divider()
 
-st.write("Please Enter The Customer Information Below and hit hte Predict Button")
+st.write("Please Enter The Customer Information Below and hit the Predict Button")
 
 st.divider()
 
