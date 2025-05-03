@@ -1,4 +1,4 @@
-# 🚀 Customer Churn Prediction | Logistic Regression + Streamlit App
+# 🚀 Customer Churn Prediction | Support Vector Machines + Streamlit App
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.0+-red.svg)](https://streamlit.io)
@@ -7,7 +7,7 @@
 
 ## 📌 Project Summary
 
-This project aims to predict **customer churn** using logistic regression—a critical classification problem for businesses looking to improve customer retention. Built with Python and deployed as an interactive **Streamlit web application**, this project demonstrates end-to-end machine learning: from data preprocessing and model training to real-time prediction.
+This project aims to predict **customer churn** using support vector machines—a critical classification problem for businesses looking to improve customer retention. Built with Python and deployed as an interactive **Streamlit web application**, this project demonstrates end-to-end machine learning: from data preprocessing and model training to real-time prediction.
 
 Whether you're an ML enthusiast or a hiring manager, this project showcases a clear application of data science for real-world business impact.
 
@@ -15,7 +15,7 @@ Whether you're an ML enthusiast or a hiring manager, this project showcases a cl
 
 ## 🧠 Key Highlights
 
-- 🔍 **Binary Classification** using **Logistic Regression**
+- 🔍 **Binary Classification** using **Support Vector Machines**
 - 📊 **Exploratory Data Analysis (EDA)** to understand churn behavior
 - 🧼 **Feature Engineering** and preprocessing (scaling, encoding)
 - 🧠 Real-time predictions via **Streamlit web app**
@@ -43,10 +43,10 @@ All data preprocessing steps (scaling and encoding) are applied before modeling 
 📦 customer-churn-prediction
 ├── app.py              # Streamlit app for real-time prediction
 ├── churn.ipynb         # EDA and model development notebook
-├── model.pkl           # Trained logistic regression model
+├── model.pkl           # Trained support vector machine model
 ├── scaler.pkl          # StandardScaler used for preprocessing
 ├── requirements.txt    # Project dependencies
-└── README.md           # You’re reading it!
+└── README.md           # You're reading it!
 
 ---
 ## 🛠 Tech Stack
@@ -56,7 +56,7 @@ All data preprocessing steps (scaling and encoding) are applied before modeling 
 | Programming        | Python 3.8+                    |
 | Data Manipulation  | Pandas, NumPy                  |
 | Visualization      | Seaborn, Matplotlib            |
-| Modeling           | scikit-learn (LogisticRegression) |
+| Modeling           | scikit-learn (SVM)             |
 | App Development    | Streamlit                      |
 | Model Serialization| joblib                         |
 
@@ -85,16 +85,16 @@ pip install -r requirements.txt
 ### 3. Launch the app
 streamlit run app.py
 
-## 🧮 Logistic Regression Model
+## 🧮 Support Vector Machines Model
 
-    Simple yet effective baseline model
-
+    Powerful model with excellent decision boundary capabilities
+    
     Trained on scaled, encoded features
-
+    
     Evaluated using Accuracy, Precision, Recall, F1-Score
 
-## ✅ Why Logistic Regression?
-It offers interpretability, fast training, and often serves as a solid benchmark model for classification tasks.
+## ✅ Why Support Vector Machines?
+It offers excellent performance for binary classification, works well with clear margins of separation, and handles high-dimensional data effectively, making it ideal for customer churn prediction.
 ## 🖥️ Streamlit Web App Preview
 
 The app accepts four inputs:
@@ -109,7 +109,7 @@ The app accepts four inputs:
 
 Click the Predict button and get a real-time prediction:
 
-    “🔮 The customer is predicted to churn: Yes/No”
+    "🔮 The customer is predicted to churn: Yes/No"
 
 ## 📈 Future Improvements
 
